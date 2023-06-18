@@ -5,5 +5,5 @@ You can then use the VPS's IP address and port 3128 as the proxy server in your 
 
 # installation
 ```
-curl -Ls raw.githubusercontent.com/khalequzzaman17/squid-proxy/main/app.sh | bash
+curl -Ls raw.githubusercontent.com/hosh3iyah/squid-proxy/main/app.sh | bash
 ```
