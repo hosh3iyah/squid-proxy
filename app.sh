@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # Update the system
-yum update -y
+apt-get update -y
 
 # Install required packages
-yum install -y epel-release
-yum install -y squid
+apt-get install -y epel-release
+apt-get install -y squid
 
 # Configure squid
 cat > /etc/squid/squid.conf << EOF
